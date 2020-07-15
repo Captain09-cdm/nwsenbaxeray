@@ -15,6 +15,7 @@ const words = [
     "parachute",
     "suburb",
     "method",
+    "miro",
     "cover",
     "praise",
     "pace",

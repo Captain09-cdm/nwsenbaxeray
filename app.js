@@ -16,6 +16,7 @@ const words = [
     "Suburb",
     "Method",
     "Miro",
+    "Mihraban",
     "Snapchat",
     "Cover",
     "Praise",

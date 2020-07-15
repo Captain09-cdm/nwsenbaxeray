@@ -108,7 +108,7 @@ function countDown(){
 
 function checkStatus(){
     if (time === 0 && isPlaying === false){
-        message.innerHTML = "زۆر جاکە';
+        message.innerHTML = 'زۆر جاکە';
         score = 1;
     }
 }

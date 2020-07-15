@@ -83,7 +83,7 @@ function startGame(){
 
 function matchword(){
     if (wordInput.value === currentWord.innerHTML){
-        message.innerHTML = 'correct'
+        message.innerHTML = 'ببوورە نەت وانی'
         return true;
     } else {
         message.innerHTML = '';
@@ -108,7 +108,7 @@ function countDown(){
 
 function checkStatus(){
     if (time === 0 && isPlaying === false){
-        message.innerHTML = 'Game Over';
+        message.innerHTML = "زۆر جاکە';
         score = 1;
     }
 }

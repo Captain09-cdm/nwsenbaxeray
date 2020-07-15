@@ -54,7 +54,7 @@ function init(){
 
     wordInput.addEventListener('input', startGame);
 
-    setInterval(countDown, 1000);
+    setInterval(countDown, 2000);
 
     setInterval(checkStatus, 50);
 
@@ -65,7 +65,7 @@ function init(){
 function startGame(){
     if (matchword()){
         isPlaying = true;
-        time = 6;
+        time = 10;
         showWord(words);
         wordInput.value = '';
         score++;
@@ -108,6 +108,6 @@ function countDown(){
 function checkStatus(){
     if (time === 0 && isPlaying === false){
         message.innerHTML = 'Game Over';
-        score = -1;
+        score = 1;
     }
 }

@@ -83,7 +83,7 @@ function startGame(){
 
 function matchword(){
     if (wordInput.value === currentWord.innerHTML){
-        message.innerHTML = 'ببوورە نەت وانی'
+        message.innerHTML ='ببوورە کاتت نەما';
         return true;
     } else {
         message.innerHTML = '';

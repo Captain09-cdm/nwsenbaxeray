@@ -17,6 +17,7 @@ const words = [
     "Method",
     "Miro",
     "Mihraban",
+    "ئەسعەد قوندەر",
     "Snapchat",
     "Cover",
     "Praise",

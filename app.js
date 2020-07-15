@@ -55,7 +55,7 @@ function init(){
 
     wordInput.addEventListener('input', startGame);
 
-    setInterval(countDown, 2000);
+    setInterval(countDown, 1000);
 
     setInterval(checkStatus, 50);
 
@@ -83,7 +83,7 @@ function startGame(){
 
 function matchword(){
     if (wordInput.value === currentWord.innerHTML){
-        message.innerHTML ='ببوورە کاتت نەما';
+        message.innerHTML ='زۆرجاکە';
         return true;
     } else {
         message.innerHTML = '';
@@ -108,7 +108,7 @@ function countDown(){
 
 function checkStatus(){
     if (time === 0 && isPlaying === false){
-        message.innerHTML = 'زۆر جاکە';
+        message.innerHTML = 'ببوورە کاتت نەما';
         score = 1;
     }
 }

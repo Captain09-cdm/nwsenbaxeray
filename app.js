@@ -1,5 +1,5 @@
 window.addEventListener('load', init);
-let time = 6;
+let time = 10;
 let score = 0;
 let isPlaying;
 

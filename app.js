@@ -108,7 +108,7 @@ function countDown(){
 
 function checkStatus(){
     if (time === 0 && isPlaying === false){
-        message.innerHTML = 'ببوورە کاتت نەما';
+        message.innerHTML = 'ببوورە کاتت تەواوبوو';
         score = 1;
     }
 }

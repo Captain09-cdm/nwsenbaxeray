@@ -1,5 +1,5 @@
 window.addEventListener('load', init);
-let time = 60;
+let time = 7;
 let score = 0;
 let isPlaying;
 
@@ -64,7 +64,7 @@ function init(){
 function startGame(){
     if (matchword()){
         isPlaying = true;
-        time = 60;
+        time = 7;
         showWord(words);
         wordInput.value = '';
         score++;

@@ -1,5 +1,5 @@
 window.addEventListener('load', init);
-let time = 10;
+let time = 7;
 let score = 0;
 let isPlaying;
 
@@ -12,41 +12,39 @@ const scoreDisplay = document.querySelector('#score');
 const message = document.querySelector('#message');
 
 const words = [
-    "جوان",
-    "ناشرین",
-    "قوتابخانە",
-    "میرۆ",
-    "میهرەبان",
-    "بازار",
-    "سناپ",
-    "سوپرایز",
-    "شوێن",
-    "باران",
-    "تەختە",
-    "رەزوان",
-    "دەرگا",
-    "ئاو",
-    "کتاب",
-    "زانیاری",
-    "پەروەردو",
-    "رەنگ",
-    "رسم",
-    "ماموستا",
-    "ماندوم",
-    "سەیارە",
-    "هەولێر",
-    "کوردستان",
-    "فێربون",
-    "پێ لاو",
-    "گول",
-    "نەخۆشخانە",
-    "کافتریا",
-    "چێشتخانە",
-    "باوک",
-    "دایک",
-    "پانتۆل",
-    "سەعات",
-    "کار"
+    "parachute",
+    "suburb",
+    "mihraban",
+    "method",
+    "miro",
+    "snapchat",
+    "cover",
+    "praise",
+    "pace",
+    "beard",
+    "shadow",
+    "boat",
+    "weight",
+    "gloom",
+    "invisible",
+    "book",
+    "hole",
+    "tight",
+    "pill",
+    "photography",
+    "civilization",
+    "flight",
+    "shiver",
+    "teach",
+    "cluster",
+    "throat",
+    "glue",
+    "surprise",
+    "concrete",
+    "council",
+    "trouser",
+    "survivor",
+    "excuse"
 ];
 
 
@@ -66,7 +64,7 @@ function init(){
 function startGame(){
     if (matchword()){
         isPlaying = true;
-        time = 10;
+        time = 7;
         showWord(words);
         wordInput.value = '';
         score++;

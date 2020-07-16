@@ -12,7 +12,7 @@ const scoreDisplay = document.querySelector('#score');
 const message = document.querySelector('#message');
 
 const words = [
-    "parachute and the faint of hair Is the problem with this script and the platform for the first was the faint hearted and the platform of the dark squad of the dark dark clouds and dark clouds of clouds and dark dark clouds and dark lights dark clouds and dark clouds to the faint of heart and the faint hearted and the faint clouds and dark dark clouds and dark clouds to the faint of water and the faint hearted and dark clouds to the ",
+    "parachute ",
     "suburb",
     "mihraban",
     "method",
